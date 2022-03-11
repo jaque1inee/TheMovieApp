@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait" appearance="dark"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait" appearance="dark"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,17 +24,17 @@
             <objects>
                 <viewController id="NUA-Qx-sqM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cM2-l1-XAM">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TMovie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEF-Ov-sz9">
-                                <rect key="frame" x="144.5" y="283.5" width="86" height="32"/>
+                                <rect key="frame" x="164.33333333333334" y="398" width="85.666666666666657" height="31.666666666666686"/>
                                 <fontDescription key="fontDescription" name="Oxygen-Bold" family="Oxygen" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLh-ho-gmN">
-                                <rect key="frame" x="38" y="503" width="299" height="51"/>
+                                <rect key="frame" x="38" y="698" width="338" height="51"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="0.51372549020000002" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="51" id="bgn-8u-BDm"/>
@@ -44,7 +45,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3NP-HS-rk0">
-                                <rect key="frame" x="38" y="570" width="299" height="54"/>
+                                <rect key="frame" x="38" y="765" width="338" height="54"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="AwJ-ue-0sz"/>
@@ -55,14 +56,14 @@
                                 </state>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 1LogoTheMovie3" translatesAutoresizingMaskIntoConstraints="NO" id="gpv-v9-EB9">
-                                <rect key="frame" x="132" y="199.5" width="111" height="68"/>
+                                <rect key="frame" x="151.66666666666666" y="314" width="110.99999999999997" height="68"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="111" id="B2j-kj-mgk"/>
                                     <constraint firstAttribute="height" constant="68" id="Orl-bv-LIh"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find your favorite movie here,we have provided many categories" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LEe-yL-RLP">
-                                <rect key="frame" x="65.5" y="323.5" width="244" height="38"/>
+                                <rect key="frame" x="85" y="437.66666666666669" width="244" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="244" id="XzW-yJ-L2O"/>
                                     <constraint firstAttribute="height" constant="38" id="hSe-4D-xhd"/>
@@ -99,11 +100,11 @@
             <objects>
                 <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome back. You`ve been missed" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJ1-BO-Vmx">
-                                <rect key="frame" x="32" y="60" width="224" height="61"/>
+                                <rect key="frame" x="32" y="104.00000000000001" width="224" height="60.666666666666671"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="224" id="ARb-4B-imX"/>
                                 </constraints>
@@ -112,7 +113,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email or Phone" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nAV-74-gz5">
-                                <rect key="frame" x="32" y="203" width="311" height="54"/>
+                                <rect key="frame" x="32" y="246.66666666666663" width="350" height="54"/>
                                 <color key="backgroundColor" red="0.76862745098039209" green="0.76862745098039209" blue="0.76862745098039209" alpha="0.40482951789502275" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="sb6-pj-czd"/>
@@ -122,7 +123,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nKL-aJ-NKc">
-                                <rect key="frame" x="32" y="289" width="311" height="54"/>
+                                <rect key="frame" x="32" y="332.66666666666669" width="350" height="54"/>
                                 <color key="backgroundColor" red="0.76862745098039209" green="0.76862745098039209" blue="0.76862745098039209" alpha="0.40482951789502275" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="Biy-op-G4E"/>
@@ -132,7 +133,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z2N-qq-yVH">
-                                <rect key="frame" x="38" y="529.5" width="299" height="51"/>
+                                <rect key="frame" x="38" y="724.66666666666663" width="338" height="51"/>
                                 <color key="backgroundColor" red="0.97647058823529409" green="0.51372549019607838" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="51" id="Zsw-aP-ERq"/>
@@ -143,34 +144,34 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ztd-0P-FnL">
-                                <rect key="frame" x="38" y="604.5" width="299" height="28"/>
+                                <rect key="frame" x="38" y="799.66666666666663" width="338" height="28"/>
                                 <fontDescription key="fontDescription" name="Oxygen-Regular" family="Oxygen" pointSize="12"/>
                                 <state key="normal" title="Skip Now">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="0.40482951789502275" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nC8-F4-Wel">
-                                <rect key="frame" x="247" y="367" width="96" height="28"/>
+                                <rect key="frame" x="286" y="410.66666666666669" width="96" height="28"/>
                                 <fontDescription key="fontDescription" name="Oxygen-Regular" family="Oxygen" pointSize="12"/>
                                 <state key="normal" title="Forgot password?">
                                     <color key="titleColor" red="0.97647058819999999" green="0.51372549020000002" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AKw-T4-gJa">
-                                <rect key="frame" x="81" y="476" width="213" height="29.5"/>
+                                <rect key="frame" x="81" y="672" width="252" height="28.666666666666629"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Don't have an account?  ">
                                             <attributes>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="14" name="Oxygen-Regular"/>
+                                                <font key="NSFont" metaFont="system" size="14"/>
                                             </attributes>
                                         </fragment>
                                         <fragment content="Register">
                                             <attributes>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="14" name="Oxygen-Bold"/>
-                                                <font key="NSOriginalFont" size="14" name="Oxygen-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="14"/>
+                                                <font key="NSOriginalFont" metaFont="system" size="14"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -211,11 +212,11 @@
             <objects>
                 <viewController id="HXz-ta-gr3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F8k-wb-9Kx">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's Register to Get Started" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B6N-xd-sea">
-                                <rect key="frame" x="32" y="60" width="224" height="61"/>
+                                <rect key="frame" x="32" y="104.00000000000001" width="224" height="60.666666666666671"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="224" id="zfg-LS-CIs"/>
                                 </constraints>
@@ -224,7 +225,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email or Phone" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tqm-ji-cEh">
-                                <rect key="frame" x="32" y="203" width="311" height="54"/>
+                                <rect key="frame" x="32" y="246.66666666666663" width="350" height="54"/>
                                 <color key="backgroundColor" red="0.76862745099999996" green="0.76862745099999996" blue="0.76862745099999996" alpha="0.40482951789999999" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="AaL-Gq-s9g"/>
@@ -234,7 +235,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ru2-R8-0pF">
-                                <rect key="frame" x="32" y="289" width="311" height="54"/>
+                                <rect key="frame" x="32" y="332.66666666666669" width="350" height="54"/>
                                 <color key="backgroundColor" red="0.76862745099999996" green="0.76862745099999996" blue="0.76862745099999996" alpha="0.40482951789999999" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="w4g-Sp-S7Y"/>
@@ -244,7 +245,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKN-gQ-cgn">
-                                <rect key="frame" x="38" y="529.5" width="299" height="51"/>
+                                <rect key="frame" x="38" y="724.66666666666663" width="338" height="51"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="0.51372549020000002" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="51" id="NwY-PF-pby"/>
@@ -255,27 +256,20 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A6x-e0-vVr">
-                                <rect key="frame" x="38" y="604.5" width="299" height="28"/>
+                                <rect key="frame" x="38" y="799.66666666666663" width="338" height="28"/>
                                 <fontDescription key="fontDescription" name="Oxygen-Regular" family="Oxygen" pointSize="12"/>
                                 <state key="normal" title="Skip Now">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="0.40482951789999999" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xxC-Ec-Hdr">
-                                <rect key="frame" x="81" y="476" width="213" height="29.5"/>
+                                <rect key="frame" x="81" y="672" width="252" height="28.666666666666629"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Have any account?  ">
+                                        <fragment content="Have any account?  Login">
                                             <attributes>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="14" name="Oxygen-Regular"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                        <fragment content="Login">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="14" name="Oxygen-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="14"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -283,7 +277,7 @@
                                 </state>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password Authentication" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lWy-xh-NHc">
-                                <rect key="frame" x="32" y="375" width="311" height="54"/>
+                                <rect key="frame" x="32" y="418.66666666666669" width="350" height="54"/>
                                 <color key="backgroundColor" red="0.76862745099999996" green="0.76862745099999996" blue="0.76862745099999996" alpha="0.40482951789999999" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="Ysu-lq-oIk"/>
@@ -328,17 +322,17 @@
             <objects>
                 <viewController id="vjy-lq-e0n" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rbv-qQ-16O">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot Password" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FB0-g8-oqd">
-                                <rect key="frame" x="164" y="60" width="181" height="30.5"/>
+                                <rect key="frame" x="203" y="104" width="181" height="30.333333333333343"/>
                                 <fontDescription key="fontDescription" name="Oxygen-Regular" family="Oxygen" pointSize="24"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kx-Px-LEP">
-                                <rect key="frame" x="38" y="529.5" width="299" height="51"/>
+                                <rect key="frame" x="38" y="724.66666666666663" width="338" height="51"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="0.51372549020000002" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="51" id="HKQ-Ia-9o2"/>
@@ -349,7 +343,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W9C-oh-I6T">
-                                <rect key="frame" x="32" y="63" width="80" height="22"/>
+                                <rect key="frame" x="32" y="107" width="119" height="22"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="chevron.backward" catalog="system">
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -357,7 +351,7 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvL-RT-rUh">
-                                <rect key="frame" x="32" y="134.5" width="311" height="72"/>
+                                <rect key="frame" x="32" y="178.33333333333334" width="350" height="72"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="72" id="Hyz-nY-ZX1"/>
                                 </constraints>
@@ -365,14 +359,14 @@
                                     <fragment content="Enter the email associated with your account and we’ll send an email with instructions to reset your password.">
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <font key="NSFont" size="14" name="Oxygen-Regular"/>
+                                            <font key="NSFont" metaFont="system" size="14"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CfU-WN-YG2">
-                                <rect key="frame" x="32" y="232.5" width="311" height="54"/>
+                                <rect key="frame" x="32" y="276.33333333333331" width="350" height="54"/>
                                 <color key="backgroundColor" red="0.76862745099999996" green="0.76862745099999996" blue="0.76862745099999996" alpha="0.40482951789999999" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="HMm-iK-ICC"/>
@@ -408,7 +402,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Group 1LogoTheMovie3" width="111" height="102"/>
+        <image name="Group 1LogoTheMovie3" width="74" height="68"/>
         <image name="chevron.backward" catalog="system" width="96" height="128"/>
     </resources>
 </document>
