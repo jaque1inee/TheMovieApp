@@ -2,7 +2,7 @@
 //  TheMovieAppUITests.swift
 //  TheMovieAppUITests
 //
-//  Created by Casa on 09/03/22.
+//  Created by Jaqueline Oliveira on 09/03/22.
 //
 
 import XCTest
